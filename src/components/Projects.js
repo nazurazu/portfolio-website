@@ -1,0 +1,45 @@
+import { useState, useEffect } from 'react';
+import Project from "./Project";
+import projects from "../projects.json";
+import "./styles/Project.css";
+
+function Projects() {
+    const [number, setNumber] = useState(1);
+    const [title, setTitle] = useState("Loading...");
+    const [description, setDescription] = useState("Loading...");
+    const [image, setImage] = useState("");
+    const numberOfProjects = projects.projects.length;
+    useEffect(
+      ()=>{
+        console.log(projects);
+        setTitle(projects.projects[number-1].title)
+        setDescription(projects.projects[number-1].description)
+        setImage(projects.projects[number-1].image)
+      }
+    )
+  return (
+    <div className="bodyAndButton">
+      <div className="projectsBody">
+        <Project projectTitle = {title} projectNumber = {number} 
+        projectDescription = {description}
+        projectImage = {image}
+        />
+      </div>
+      <div className="moveOnButtonDiv">
+        <a className="moveOnButton"
+        style={{display: numberOfProjects > number?"":"none" }}
+      onClick={()=> {
+
+        setNumber(number + 1)
+        setTitle(projects.projects[number].title)
+        setDescription(projects.projects[number].description)
+        setImage(projects.projects[number].image)
+        }} >
+          Move on to project {number+1}
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default Projects;

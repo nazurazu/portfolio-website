@@ -1,0 +1,75 @@
+.projectsBody{
+    /* height:60vh; */
+    margin-top:150px;
+    display:flex;
+    flex-direction: column;
+    
+    justify-content:left;
+    align-items:left;
+    text-align:left;
+    margin-bottom: 20px;
+
+}
+
+.bodyAndButton{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+}
+
+.moveOnButton{
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    letter-spacing: 0.07rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96.1%;
+    
+}
+
+.projectTitle{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 33px;
+    letter-spacing: 0.07em;
+    font-size: 24px;
+}
+
+.projectDescription{
+
+    line-height: 22px;
+    font-family: Open Sans;
+    font-style: normal;
+    width:400px;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.07rem;
+    margin-top: 40px;
+    margin-bottom:60px;
+}
+
+.projectLink{
+    /* this one holds the "view project details" */
+    text-decoration: none;
+    letter-spacing: 0.07rem;
+    background-color: rgba(196, 196, 196, 1);
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left:30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96.1%;
+    /* or 17px */
+
+}

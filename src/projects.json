@@ -1,0 +1,22 @@
+{
+    "projects":[
+        {
+            "projectNumber":1,
+            "description":"1111 Description about the first project , the synopsis will be short but they can click button to see the process.",
+            "title":"PROJECT 1: BRAND IDENTITY",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg"
+        },
+        {
+            "projectNumber":2,
+            "description":"2222 Description about the first project , the synopsis will be short but they can click button to see the process ",
+            "title":"L Nazifa L Nazifa L Nazifa",
+            "image":"https://iupac.org/100/wp-content/uploads/sites/2/chemist/3237/Koala.jpg"
+        },
+        {
+            "projectNumber":3,
+            "description":"3333 Description about the first project , the synopsis will be short but they can click button to see the process ",
+            "title":"L Tajmina L Tajmina L Tajmina",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Friendly_Female_Koala.JPG/561px-Friendly_Female_Koala.JPG"
+        }
+    ]
+}

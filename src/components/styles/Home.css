@@ -1,0 +1,19 @@
+.home_body .home_images .portrait{
+    position: relative;
+    object-fit: none;
+    max-width: 100px;
+    height: auto;
+    overflow: hidden;
+    
+    /* width: auto;
+    height: 100px;
+    object-fit: none; */
+    border-radius: 224px 224px 0px 0px;
+}
+
+img{
+    display: inline;
+    margin: 0 auto;
+    height: 50%;
+    width: auto;
+}

@@ -1,6 +1,6 @@
 .projectsBody{
     /* height:60vh; */
-    margin-top:150px;
+    margin-top:0px;
     display:flex;
     flex-direction: column;
     
@@ -9,6 +9,10 @@
     text-align:left;
     margin-bottom: 20px;
 
+}
+
+a{
+    cursor: pointer;
 }
 
 .bodyAndButton{
@@ -30,7 +34,21 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 96.1%;
-    
+}
+
+
+.moveBackButton{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    margin-top: 200px;
+    margin-right: 50px;
+    letter-spacing: 0.07rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96.1%;
 }
 
 .projectTitle{
